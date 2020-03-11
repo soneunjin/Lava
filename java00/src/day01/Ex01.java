@@ -48,17 +48,16 @@ public class Ex01 {
 		System.out.println("숫자 11은 이진수 : " + Integer.toBinaryString(11) + "입니다." );
 		
 		// 2번
-		int ars = 7;
-		double arr = 3.14;
-		System.out.println("원의 둘레는 : " + 2*(float) ars* (float) arr + "입니다.");
-		System.out.println("원의 넓이는 : " + ars*ars*arr + "입니다.");
 		
+		// 3번
 		int garo = 3;
 		int saro = 4;
 		System.out.println( "사각형의 넓이는 :" + garo * saro + "입니다.");
 		
+		// 4번
 		System.out.println( "삼각형의 넓이는 : " + (garo*saro)/2 + "입니다.");
 		
+		// 5번
 		System.out.println("지불할 가격을 입력하세요 : ");
 		Scanner sc = new Scanner(System.in);
 		int money = sc.nextInt();
@@ -83,14 +82,14 @@ public class Ex01 {
 		i = money / 1;
 		
 		
-		System.out.println("입력한 5만원권은  : " + a + " 입니다.");
-		System.out.println("입력한 1만원권은 : " + b + " 입니다.");
-		System.out.println("입력한 5천원권은 : " + c + " 입니다.");
-		System.out.println("입력한 1천원권은 : " + d + " 입니다.");
-		System.out.println("입력한 5백원권은 : " + e + " 입니다.");
-		System.out.println("입력한 1백원권은 : " + f + "입니다.");
-		System.out.println("입력한 5십원권은 : " + g + "입니다.");
-		System.out.println("입력한 1십원권은 : " + h + "입니다.");
+		System.out.println("입력한 5만원권은  : " + a + " 장입니다.");
+		System.out.println("입력한 1만원권은 : " + b + " 장입니다.");
+		System.out.println("입력한 5천원권은 : " + c + " 장입니다.");
+		System.out.println("입력한 1천원권은 : " + d + " 장입니다.");
+		System.out.println("입력한 5백원권은 : " + e + " 장입니다.");
+		System.out.println("입력한 1백원권은 : " + f + " 장입니다.");
+		System.out.println("입력한 5십원권은 : " + g + " 장입니다.");
+		System.out.println("입력한 1십원권은 : " + h + " 장입니다.");
 		System.out.println("입력한 1원권은 : " + i + "입니다.");
 
 		
