@@ -38,19 +38,10 @@ public class Ex03 {
 			result = 2900 +(sa*169);
 		} else if(code == 4) {
 			result = 3200 +(sa*174);
-		}
-		System.out.println("전기세 : "+ result);
+		} 
+		System.out.println("전기세 : "+ result + "원");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 	public static void main(String[] args) {
 		new Ex03();
