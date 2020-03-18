@@ -161,7 +161,7 @@ public class Ex01 {
 				}
 				System.out.println();
 			}
-		
+		System.out.println(Arrays.toString(arr));
 	}
 	
 	
