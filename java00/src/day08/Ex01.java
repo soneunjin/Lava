@@ -103,27 +103,24 @@ public class Ex01 {
 	public void solv1() {
 		String[][][] team = new String[2][3][];
 		
-		String[] name = {"김소영","최두용","정우승","유태희","김종형","임서진"};
-		String[] tel= {"010-1111-1111","010-2222-2222","010-3333-3333","010-5555-5555","010-8888-8888","010-9999-9999"};
-		String[] mail = {"pengsoon@increpas.com","dDragon@increpas.com","victory@increpas.com","nobody@increpas.com","bell@increpas.com","leem@increpas.com"};
-
+		String[][] team1  = new String[2][];
 		
-		String[] name1 = {"손은진","김수진","이한철","이진수","김성현"};
-		String[] tel1 = {"010-1111-1111","010-2222-2222","010-3333-3333","010-5555-5555","010-8888-8888","010-9999-9999"};
+//		String[][] = {"손은진","김수진","이한철","이진수","김성현"};
+//		String[][] tel1 = {"010-1111-1111","010-2222-2222","010-3333-3333","010-5555-5555","010-8888-8888","010-9999-9999"};
 		String[] mail1 = {"pengsoon@increpas.com","dDragon@increpas.com","victory@increpas.com","nobody@increpas.com","bell@increpas.com","leem@increpas.com"};
 
-		for(int i=0;i<team.length;i++) {
-			for(int j=0; j<name[i].length(); j++) {
-			team[0][0][i] = name[i];
-			team[0][0][i] = tel[i];
-			team[0][0][i] = mail[i];
-		}
-		}
-		for(int j=0; j<team.length;j++) {
-			team[1][0][j] = name1[j];
-			team[1][0][j] = tel1[j];
-			team[1][0][j] = mail[j];
-		}
+//		for(int i=0;i<team.length;i++) {
+//			for(int j=0; j<name[i].length(); j++) {
+//			team[0][0][i] = name[i];
+//			team[0][0][i] = tel[i];
+//			team[0][0][i] = mail[i];
+//		}
+//		}
+//		for(int j=0; j<team.length;j++) {
+//			team[1][0][j] = name1[j];
+//			team[1][0][j] = tel1[j];
+//			team[1][0][j] = mail[j];
+//		}
 		
 		System.out.println(Arrays.deepToString(team));
 		
