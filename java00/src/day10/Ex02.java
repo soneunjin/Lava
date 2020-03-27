@@ -27,13 +27,11 @@ public class Ex02 {
 		int total = 0;
 		for(int i=0; i<no1.length; i++) {
 			no1[i] = no;
-			
 			sum += no;
-		
-			
+			total = sum;
+
 		}
-		sum = total;
-		System.out.println(sum);
+		System.out.println(total);
 	}
 	
 	public static void main(String[] args) {
