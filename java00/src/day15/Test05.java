@@ -12,7 +12,7 @@ public class Test05 {
 		//	이 클래스의 객체를 만들려면 함수중 
 		//	속성이 static 이면서 반환값이 Pattern인 함수를 찾아서 사용하면 될 것이다.
 		// 	api 문서를 뒤져보니까 그런 함수는 compile(String regex) 이므로 이 함수를 사용하면 되겠다.
-		Pattern pattern = Pattern.compile("^0[0-9]{2}-[0-9]{3,4}-[0-9]{4}$");
+		Pattern pattern = Pattern.compile("^0[0-9]{1,2}-[0-9]{3,4}-[0-9]{4}$");
 		/*
 		  	2. 이 클래스에게 정규식 문법을 검사해 달라고 요청한다.
 		  		문법을 검사하는 함수가 matcher()
