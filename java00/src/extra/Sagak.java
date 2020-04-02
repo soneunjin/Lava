@@ -1,7 +1,5 @@
 package extra;
 
-import day14.Samgak;
-
 public class Sagak implements Comparable{
 	private int width;
 	private int height;
@@ -16,8 +14,9 @@ public class Sagak implements Comparable{
 	}
 	@Override
 	public int compareTo(Object o) {
-		// TODO Auto-generated method stub
-		return 0;
+		Sagak s = (Sagak) o;
+		int result = this.width - s.width;
+		return result;
 	}
 	
 	public int getWidth() {
@@ -40,6 +39,10 @@ public class Sagak implements Comparable{
 	}
 	public void setArea(double area) {
 		this.area = area;
+	}
+	 
+	public int hashCode() {
+		return width;
 	}
 	public boolean equals(Object obj) {
 		boolean bool = false;

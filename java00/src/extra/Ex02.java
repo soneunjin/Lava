@@ -13,11 +13,25 @@ package extra;
  */
 import java.util.*;
 public class Ex02 {
-
+	
 	public Ex02() {
-		ArrayList<Sagak> list = new ArrayList<Sagak>();
-		
-		
+		HashSet<Sagak> list = new HashSet<Sagak>();
+		int cnt = 0 ;
+		for(;;) {
+			System.out.println(cnt++);
+			int width = (int)(Math.random()*6 + 5);
+			int height = (int)(Math.random()*6 + 5);
+			list.add(new Sagak(width,height));
+			if(list.size() == 5) {
+				break;
+			}
+		}
+		System.out.println("½ÇÆÐÈ½¼ö : " +((cnt+1)-5));
+	
+		for(Sagak s : list) {
+			System.out.print("width : " + s.getWidth() + " height : " + s.getHeight());
+			System.out.println(" area : " + s.getArea());
+		}
 		
 		
 	}
