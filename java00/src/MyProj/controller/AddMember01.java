@@ -6,6 +6,17 @@ import java.util.*;
 import javax.swing.*;
 
 public class AddMember01 {
+	/*
+	  ALTER TABLE
+    	member
+		add(
+    		joinDate Date default sysdate
+        	CONSTRAINT MEMB_JOIN_NN NOT NULL
+			);
+	 */
+	
+	
+	
 
 	public AddMember01() {
 		// 회원 한명을 추가해 보자.
