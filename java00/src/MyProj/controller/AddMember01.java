@@ -23,13 +23,13 @@ public class AddMember01 {
 		// 회원 데이터는 VO 에 담아서 넘겨주기로 약속했으므로 VO를 준비한다.
 		
 		MemberVO mVO = new MemberVO();
-		mVO.setName("서동혁");
-		mVO.setId("sdh");
-		mVO.setPw("12345");
-		mVO.setMail("sdh@increpas.com");
+		mVO.setName("손은진");
+		mVO.setId("sej0267");
+		mVO.setPw("45123");
+		mVO.setMail("sej0267@navercom");
 		mVO.setGen("M");
-		mVO.setTel("010-9823-5579");
-		mVO.setAno(11);
+		mVO.setTel("010-5704-7478");
+		mVO.setAno(12);
 		
 		// 데이터는 준비 되었으니
 		// 데이터베이스 처리함수를 호출해준다.

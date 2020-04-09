@@ -41,7 +41,7 @@ public class ORCLJDBC {
 	}
 	
 	// Statement 얻어오는 함수
-	public Statement getSTMT() {
+	public Statement getSTMT(Connection con2) {
 		Statement stmt = null;
 		try {
 			stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
